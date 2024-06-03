@@ -1,0 +1,56 @@
+* {
+    margin: 0
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: gray;
+    flex-direction: column;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    padding:20px;
+    margin-bottom: 20px;
+    color:#E8B34B;
+    font-size: xx-large;
+
+}
+.caja1{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    padding:20px;
+
+}
+.select {
+font-size: 18px;
+height: 40px;
+padding: 20px 20px;
+}
+button{
+    size: 30px;
+    position:absolute;
+    bottom:300px ;
+    right: 930px;
+    justify-content: center;   
+    /*margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 150px;*/
+}
+
+p{
+    display: flex;
+    justify-content: center;    
+    padding:20px;
+    margin-bottom: 20px;
+    color:white;
+    font-size: large;
+
+}
